@@ -1,0 +1,21 @@
+{
+  "name": "powershell-build",
+  "version": "0.0.1",
+  "description": "Tools for PowerShell build processes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure/azure-powershell.git"
+  },
+  "keywords": [
+    "azure",
+    "powershell"
+  ],
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1",
+    "gulp-debug": "^2.0.1"
+  }
+}
