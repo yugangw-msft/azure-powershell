@@ -1,4 +1,8 @@
 ﻿{
+  "compilationOptions": {
+    "useOssSigning": true,
+    "keyFile": "../../../tools/MSSharedLibKey.snk"
+  },
   "dependencies": {
     "Microsoft.NETCore": "5.0.1-beta-23516",
     "Microsoft.NETCore.Platforms": "1.0.1-beta-23516",

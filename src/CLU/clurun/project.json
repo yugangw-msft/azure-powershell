@@ -1,6 +1,8 @@
 ﻿{
   "compilationOptions": {
-    "emitEntryPoint": true
+    "emitEntryPoint": true,
+    "useOssSigning": true,
+    "keyFile": "../../../tools/MSSharedLibKey.snk"
   },
   "dependencies": {
     "Microsoft.CLU.Run": "",

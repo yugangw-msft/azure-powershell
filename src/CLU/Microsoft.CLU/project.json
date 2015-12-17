@@ -1,5 +1,7 @@
 ﻿{
   "compilationOptions": {
+    "useOssSigning": true,
+    "keyFile": "../../../tools/MSSharedLibKey.snk",
     "emitEntryPoint": true
   },
   "dependencies": {

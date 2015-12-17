@@ -5,12 +5,16 @@
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
+  "compilationOptions": {
+    "useOssSigning": true,
+    "keyFile": "../../../tools/MSSharedLibKey.snk"
+  },
   "frameworks": {
     "dnxcore50": {
       "dependencies": {
         "Microsoft.NETCore": "5.0.1-beta-23516",
         "Microsoft.NETCore.Platforms": "1.0.1-beta-23516",
-       "Microsoft.CSharp": "4.0.1-beta-23516"
+        "Microsoft.CSharp": "4.0.1-beta-23516"
       }
     }
   },

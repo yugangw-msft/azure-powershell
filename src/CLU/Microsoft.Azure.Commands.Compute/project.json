@@ -5,6 +5,11 @@
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
+  "compilationOptions": {
+    "emitEntryPoint": true,
+    "useOssSigning": true,
+    "keyFile": "../../../tools/MSSharedLibKey.snk"
+  },
   "frameworks": {
     "dnxcore50": {
       "dependencies": {
@@ -54,6 +59,5 @@
     "Microsoft.Azure.Management.Network": "3.0.3-preview",
     "Microsoft.Azure.Management.Storage": "4.0.0-preview",
     "AutoMapper": "4.1.1"
-  },
-  "compilationOptions": {"emitEntryPoint": true}
+  }
 }
