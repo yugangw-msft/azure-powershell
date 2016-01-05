@@ -50,5 +50,8 @@
     "WindowsAzure.Storage": "6.1.1-preview",
     "Microsoft.Azure.Management.Storage": "4.0.0-preview"
   },
-  "compilationOptions": {"emitEntryPoint": true}
+  "compilationOptions": { "emitEntryPoint": true },
+  "packInclude": {
+    "content/": "./*xml"
+  }
 }

@@ -57,5 +57,6 @@
     "VhdManagement": "1.0.0-*",
     "Sync": "1.0.0-*"
   },
-  "compilationOptions": {"emitEntryPoint": true}
+  "compilationOptions": { "emitEntryPoint": true },
+  "content": [ "./*xml" ]
 }
